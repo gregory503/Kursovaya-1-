@@ -11,7 +11,7 @@ def selection_sort(nums):
         nums[i], nums[lowest_value_index] = nums[lowest_value_index], nums[i]
 # Проверяем, что это работает
 import random
-arry = [random.randint(0, 1000) for i in range(1000)]
+arry = [random.randint(0, 10000) for i in range(10000)]
 print(arry)
 selection_sort(arry)
 print(arry)
