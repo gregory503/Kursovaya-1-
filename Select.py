@@ -10,6 +10,8 @@ def selection_sort(nums):
         # Поменять местами значения самого низкого несортированного элемента с первым несортированным
         nums[i], nums[lowest_value_index] = nums[lowest_value_index], nums[i]
 # Проверяем, что это работает
-random_list_of_nums = [12, 17, 22, 29, 37, 39, 42, 51, 36, 44, 59, 67, 78, 1, 2, 8, 48, 3, 20, 11]  
-selection_sort(random_list_of_nums)  
-print(random_list_of_nums) 
+import random
+arry = [random.randint(0, 1000) for i in range(1000)]
+print(arry)
+selection_sort(arry)
+print(arry)
