@@ -13,7 +13,7 @@ def insertion_sort(nums):
         nums[j + 1] = item_to_insert
 # Проверяем, что это работает
 import random
-arry = [random.randint(0, 1000) for i in range(1000)]
+arry = [random.randint(0, 10000) for i in range(10000)]
 print(arry)
 insertion_sort(arry)
 print(arry)
