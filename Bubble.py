@@ -10,7 +10,7 @@ def bubble_sort(nums):
                 # Set the flag to True so we'll loop again
                 swapped = True
 import random
-arry = [random.randint(0, 1000) for i in range(1000)]
+arry = [random.randint(0, 10000) for i in range(10000)]
 print(arry)
 bubble_sort(arry)
 print(arry)
